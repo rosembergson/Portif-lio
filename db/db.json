@@ -1,0 +1,24 @@
+{
+    "tarefas": [
+        { "id": 1 , "name" : "Vue.js", "concluido" : true },
+        { "id": 2 , "name" : "React.js", "concluido" : true },
+        { "id": 3 , "name" : "Angular.js", "concluido" : true },
+        { "id": 4 , "name" : "Jquery.js", "concluido" : true }
+    ],
+
+    "headermenu": [
+        { "id":1, "name": "Home" },
+        { "id":2, "name": "About" },
+        { "id":3, "name": "Timeline" },
+        { "id":4, "name": "Projects" },
+        { "id":5, "name": "Press room" },
+        { "id":6, "name": "Contact " }
+    ], 
+    "card" : [
+        {"id":1, "titule5": "Geronimo", "titule3" : "Hover me", "conteud": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." ,"conteud2": "Web devenloper and design", "code":"http://hdqwalls.com/wallpapers/baby-groot-4k-2018-96.jpg"},
+        {"id":2, "titule5": "Notried", "titule3" : "Hover me", "conteud": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." ,"conteud2": "Web devenloper and design", "code":"https://i.pinimg.com/originals/50/38/c9/5038c93d673d5de4f6ac551fb2434640.jpg"},
+        {"id":3, "titule5": "Ladys", "titule3" : "Hover me", "conteud": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." ,"conteud2": "Web devenloper and design", "code":"https://wallpaperaccess.com/full/83037.jpg"},
+        {"id":4, "titule5": "Black side", "titule3" : "Hover me", "conteud": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." ,"conteud2": "Web devenloper and design", "code":"http://hdqwalls.com/wallpapers/4k-baby-groot-td.jpg"},
+        {"id":5, "titule5": "Dark source", "titule3" : "Hover me", "conteud": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." ,"conteud2": "Web devenloper and design", "code":"https://cdn.wallpapersafari.com/32/37/lhI4OC.jpg"}
+    ]
+}
