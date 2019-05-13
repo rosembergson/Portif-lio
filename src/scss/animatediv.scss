@@ -1,0 +1,88 @@
+.animatediv_bg{
+    border: black 1px solid;
+    margin:0;
+    width:auto;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    .animatediv_container{
+        width:90%;
+        h2{
+            width:100%;
+            text-align: center;
+        }
+        .container--divshow{
+            display: flex;
+            .container--divshow--1{
+                background-image: url("https://wallpapercave.com/wp/wp3017411.jpg");
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                object-fit: cover;
+                width:70%;
+                height: 400px;
+                h4{
+                    color:white;
+                    font-family: 'Open Sans', sans-serif;
+                    font-size:20px;
+                    text-shadow:1px 2px black;
+                }
+                p{
+                    margin:50px 20% ;
+                    text-shadow:2px 2px black;
+                    width:60%;
+                    font-family: 'Roboto', sans-serif;
+                    font-size:16px;
+                    color:white;
+                    text-align:justify;
+                }
+                button{
+                    margin:0;
+                    padding:10px 20px;
+                    border:none;
+                    outline:none;
+                    color:white;
+                    background:firebrick;
+                    font-size:30px;
+                    cursor: pointer;
+                    transition: all 1s;
+                }
+                button:hover{
+                    transform: scale(0.8);
+                }
+            }
+            .container--divshow--2{
+                width:30%;
+                height: 400px;
+                background: #242a3a;
+            }
+        }
+    }
+}
+
+.div_animate_1{
+        color:white;
+        padding:10px 25px;
+        width:auto;
+        background: transparent;
+        height:50%;
+        cursor:pointer;
+        margin-bottom:50px;
+        label{
+            display:block;
+            margin:10px;
+        }
+        input{
+            outline:none;
+            border:none;
+            padding:5px 10px ;
+        }
+        button{
+            padding:10px 20px;
+            background: black;
+            color:white;
+            outline:none;
+            border:none;
+            cursor:pointer;
+        }
+}

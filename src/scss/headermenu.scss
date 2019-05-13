@@ -21,6 +21,14 @@
             .div2--choosebuttonheader{
                 display: flex;
                 justify-content: flex-end;
+                button{
+                    padding: 10px 20px;
+                    outline:none;
+                    border:none;
+                    cursor: pointer;
+                    background:blue;
+                    color:white;
+                }
             }
             .headermenu_div2--ul{
                 display: flex;

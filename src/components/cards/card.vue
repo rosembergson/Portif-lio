@@ -14,7 +14,7 @@
                 <p>  {{card.conteud}} </p>
             </div>
             <div class="card_conteud--text3">
-                <p class="card_conteud--text3" >Read me</p>
+                <p class="card_conteud--text3" > Inscrever </p>
             </div>
         </div>
         

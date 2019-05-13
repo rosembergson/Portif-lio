@@ -2,6 +2,8 @@
   <div class="home">
     <headermenu />
     <cardlist/>
+    <!-- <foot/> -->
+    <animatediv/>
   </div>
 </template>
 
@@ -9,10 +11,14 @@
 import { Component, Vue } from 'vue-property-decorator'
 import Headermenu from '../components/header/headermenu'
 import Cardlist from '../components/cards/cardlist'
+import Foot from '../components/footer/footer'
+import Animatediv from '../components/animates/animatediv'
 @Component({
   components: {
     'headermenu' : Headermenu,
-    'cardlist' : Cardlist
+    'cardlist' : Cardlist,
+    'foot' : Foot,
+    'animatediv' : Animatediv
   }
 })
 export default class Home extends Vue {}
@@ -23,5 +29,8 @@ export default class Home extends Vue {}
   .home{
     width:100%;
     height:100%;
+  }
+  animatediv{
+    width:100vw;
   }
 </style>

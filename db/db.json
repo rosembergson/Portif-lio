@@ -15,10 +15,11 @@
         { "id":6, "name": "Contact " }
     ], 
     "card" : [
-        {"id":1, "titule5": "Geronimo", "titule3" : "Hover me", "conteud": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." ,"conteud2": "Web devenloper and design", "code":"http://hdqwalls.com/wallpapers/baby-groot-4k-2018-96.jpg"},
-        {"id":2, "titule5": "Notried", "titule3" : "Hover me", "conteud": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." ,"conteud2": "Web devenloper and design", "code":"https://i.pinimg.com/originals/50/38/c9/5038c93d673d5de4f6ac551fb2434640.jpg"},
-        {"id":3, "titule5": "Ladys", "titule3" : "Hover me", "conteud": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." ,"conteud2": "Web devenloper and design", "code":"https://wallpaperaccess.com/full/83037.jpg"},
-        {"id":4, "titule5": "Black side", "titule3" : "Hover me", "conteud": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." ,"conteud2": "Web devenloper and design", "code":"http://hdqwalls.com/wallpapers/4k-baby-groot-td.jpg"},
-        {"id":5, "titule5": "Dark source", "titule3" : "Hover me", "conteud": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." ,"conteud2": "Web devenloper and design", "code":"https://cdn.wallpapersafari.com/32/37/lhI4OC.jpg"}
+        {"id":1, "titule5": "Angular", "titule3" : "Curso de Angular Js", "conteud": "Tudo sobre Angular da versão da 2 a 7. São 64 horas de curso com mais 20 projetos com essa linguagem e isso tudo de graça!" ,"conteud2": "Web devenloper and design", "code":"https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg"},
+        {"id":2, "titule5": "Vue", "titule3" : "Curso de Vue Js", "conteud": "A nova framework JavaScript que vem tomando de conta do mercado Atual. São 96h do melhor curso de Vue já feito e tudo isso de graça, aqui e agora!" ,"conteud2": "Web devenloper and design", "code":"https://vuejs.org/images/logo.png"},
+        {"id":3, "titule5": "React", "titule3" : "Curso de React", "conteud": "React framework que está dando o que falar no mercado do webdesign, são 32horas do curso mais intenso já feito e isso tudo para você de graça!" ,"conteud2": "Web devenloper and design", "code":"https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"},
+        {"id":4, "titule5": "Jquery", "titule3" : "Curso de Jquery", "conteud": "Aos amantes da velha guarda, o curso de Jquery está sendo ofertado afim de detalhar sobre sua tecnologia e suas atuais utilidades." ,"conteud2": "Web devenloper and design", "code":"https://brand.jquery.org/resources/jquery-mark-light.gif"},
+        {"id":5, "titule5": "JavaScript", "titule3" : "Curso de JavaScript", "conteud": "Que tal aprender tudo do zero e da melhor forma? Vem pro curso de JavaScript vanilla!!!" ,"conteud2": "Web devenloper and design", "code":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"}
     ]
+    
 }
