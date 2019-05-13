@@ -13,12 +13,10 @@
                 <h3> {{card.titule3}} </h3>
                 <p>  {{card.conteud}} </p>
             </div>
-            <div class="card_conteud--text3">
-                <p class="card_conteud--text3" > Inscrever </p>
-            </div>
         </div>
-        
-        
+        <div class="card_conteud--text3">
+            <button type="button"> Inscrever </button>
+        </div>
     </li>
 </template>
 

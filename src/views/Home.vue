@@ -1,9 +1,16 @@
 <template>
   <div class="home">
     <headermenu />
-    <cardlist/>
-    <!-- <foot/> -->
+
+    <welcome/>
+
     <animatediv/>
+    <cardlist/>
+    <carousel/>
+    
+    <particules/>
+
+
   </div>
 </template>
 
@@ -13,12 +20,18 @@ import Headermenu from '../components/header/headermenu'
 import Cardlist from '../components/cards/cardlist'
 import Foot from '../components/footer/footer'
 import Animatediv from '../components/animates/animatediv'
+import Particules from '../components/animates/particulesanimation'
+import Welcome from '../components/welcome/welcome'
+import Carousel from '../components/carousel/carousel'
 @Component({
   components: {
     'headermenu' : Headermenu,
     'cardlist' : Cardlist,
     'foot' : Foot,
-    'animatediv' : Animatediv
+    'animatediv' : Animatediv,
+    'particules' : Particules,
+    'welcome' : Welcome,
+    'carousel' : Carousel
   }
 })
 export default class Home extends Vue {}
@@ -33,4 +46,5 @@ export default class Home extends Vue {}
   animatediv{
     width:100vw;
   }
+  
 </style>

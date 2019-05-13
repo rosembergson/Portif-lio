@@ -4,11 +4,6 @@
             <img  class="headermenu_div1--img" style="width:100px; height:100px" src="../../assets/logo1.png" alt="logo_avengers" />
         </div>
         <div class="headermenu_bg--div2">
-            <div class="div2--choosebuttonheader">
-                <button type="button"> Sign in </button>
-                <span> or </span>
-                <button type="button"> Sign up </button>
-            </div>
             <ul class="headermenu_div2--ul">
                 <li v-for="menu in menus" :key="menu"> {{menu.name}} </li>
             </ul>

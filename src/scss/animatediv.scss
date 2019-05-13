@@ -1,10 +1,10 @@
 .animatediv_bg{
-    border: black 1px solid;
     margin:0;
     width:auto;
     height:100vh;
     display:flex;
     justify-content: center;
+    font-family: 'Muli', sans-serif;
     .animatediv_container{
         width:90%;
         h2{
@@ -14,30 +14,33 @@
         .container--divshow{
             display: flex;
             .container--divshow--1{
-                background-image: url("https://wallpapercave.com/wp/wp3017411.jpg");
+                background-image: url("https://images8.alphacoders.com/685/685192.jpg");
                 background-position: center;
                 background-size: cover;
                 background-repeat: no-repeat;
                 object-fit: cover;
                 width:70%;
-                height: 400px;
+                min-height: 400px;
+                font-family: 'Muli', sans-serif;
+                display: flex;
+                flex-direction: column;
+                overflow: hidden;
                 h4{
                     color:white;
-                    font-family: 'Open Sans', sans-serif;
+                    font-family: 'Muli', sans-serif;
                     font-size:20px;
-                    text-shadow:1px 2px black;
                 }
                 p{
-                    margin:50px 20% ;
-                    text-shadow:2px 2px black;
-                    width:60%;
-                    font-family: 'Roboto', sans-serif;
-                    font-size:16px;
+                    margin:50px 20px;
+                    width:50%;
+                    font-family: 'Muli', sans-serif;
+                    font-size:18px;
                     color:white;
                     text-align:justify;
                 }
                 button{
-                    margin:0;
+                    margin-left:10px;
+                    width:20%;
                     padding:10px 20px;
                     border:none;
                     outline:none;
@@ -53,36 +56,54 @@
             }
             .container--divshow--2{
                 width:30%;
-                height: 400px;
+                min-height: 400px;
                 background: #242a3a;
             }
         }
     }
 }
-
 .div_animate_1{
         color:white;
         padding:10px 25px;
         width:auto;
         background: transparent;
-        height:50%;
+        min-height:90%;
         cursor:pointer;
         margin-bottom:50px;
-        label{
-            display:block;
-            margin:10px;
+        position: relative;
+        .div_animate_1--conteud{
+                display: flex;
+                justify-content:flex-start;
+                width:60%;
+                min-height: 40px;
+                margin:10px;
+                background:firebrick;
+                border-radius:20px;
+                span{
+                    align-self: center;
+                    margin-left:10px;
+                    color:white;
+                    font-family: 'Muli', sans-serif;
+                }
         }
-        input{
-            outline:none;
-            border:none;
-            padding:5px 10px ;
+        .position_divconteud4{
+            top:0;
+            left:0;
+            position: absolute;
         }
-        button{
-            padding:10px 20px;
-            background: black;
-            color:white;
-            outline:none;
-            border:none;
-            cursor:pointer;
+        .position_divconteud2{
+            top:100px;
+            right:0;
+            position: absolute;
+        }
+        .position_divconteud3{
+            top:200px;
+            left:0;
+            position: absolute;
+        }
+        .position_divconteud1{
+            right:0;
+            bottom:0;
+            position: absolute;
         }
 }

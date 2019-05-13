@@ -1,0 +1,50 @@
+.welcome{
+    margin:0;
+    width:100%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    animation-name: animation-welcome;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    h2{
+        font-family: 'Playfair Display', serif;
+
+        font-size:40px;
+    }
+    p{
+        font-family: 'Muli', sans-serif;
+        font-size:25px;
+    }
+    .welcomebg{
+        background:firebrick;
+        width:150px;
+        height: 160px;
+        border-radius:50%;
+        margin-bottom:10px;
+        text-align: center;
+        cursor: pointer;
+        overflow: hidden;
+        display: flex;
+        align-self: center;
+        img{
+            width:150px;
+            height: 220px;
+            object-fit: cover;
+        }
+        img:hover{
+            transform: scale(1.1);
+        }
+    }
+}
+
+@keyframes animation-welcome{
+
+    0%{ opacity: 0; transform: translateY(50px)}
+
+    100%{ opacity: 1; transform: translateY(0px) }
+}

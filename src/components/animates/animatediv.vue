@@ -2,7 +2,7 @@
 <div>
     <div class="animatediv_bg">
         <div class="animatediv_container">
-            <h2> Rosembergson Lacerda </h2>
+            <h2> Who is Rosembergson? </h2>
             <div class="container--divshow">
                 <div class="container--divshow--1"> 
                     <h4> Quem é Rosembergson Lacerda </h4>
@@ -15,15 +15,15 @@
                 <div class="container--divshow--2"> 
                     <div class="flip-box">
                         <div class="flip-box-inner">
-                             <div class="flip-box-front">
+                            <div class="flip-box-front">
                                 
-                             </div>
-                             <div class="flip-box-back">
+                            </div>
+                            <div class="flip-box-back">
                                 <form class="div_animate_1"> 
-                                    <label for="name"> Name : <input type="text" name="name" ></label>
-                                    <label for="email"> Email : <input type="email" name="email" ></label>
-                                    <label for="idade"> Idade : <input type="text" name="idade" ></label>
-                                    <button type="button"> Enviar </button>
+                                    <div class="div_animate_1--conteud position_divconteud1"><span class="icon-tv"> Tv Platform</span> </div>
+                                    <div class="div_animate_1--conteud position_divconteud2"><span class="icon-tablet"> Tablet Platform</span></div>
+                                    <div class="div_animate_1--conteud position_divconteud3"><span class="icon-mobile"> Mobile Platform  </span></div>
+                                    <div class="div_animate_1--conteud position_divconteud4"><span class="icon-display"> Desktop Platform </span></div>
                                 </form>
                             </div>
                         </div>
@@ -43,5 +43,6 @@ export default {
 
 <style lang="scss">
     @import '../../scss/animatediv.scss';
-    @import '../../scss/animationcard.scss'
+    @import '../../scss/animationcard.scss';
+    @import '../../scss/contact.scss'
 </style>
