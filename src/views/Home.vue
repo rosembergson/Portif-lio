@@ -6,10 +6,11 @@
 
     <animatediv/>
     <cardlist/>
+  <div class="app">
     <carousel/>
-    
+    </div>
     <particules/>
-
+    <pictureanimation/>
 
   </div>
 </template>
@@ -23,6 +24,8 @@ import Animatediv from '../components/animates/animatediv'
 import Particules from '../components/animates/particulesanimation'
 import Welcome from '../components/welcome/welcome'
 import Carousel from '../components/carousel/carousel'
+import Pictureanimation from '../components/animates/picturesanimation'
+
 @Component({
   components: {
     'headermenu' : Headermenu,
@@ -31,7 +34,8 @@ import Carousel from '../components/carousel/carousel'
     'animatediv' : Animatediv,
     'particules' : Particules,
     'welcome' : Welcome,
-    'carousel' : Carousel
+    'carousel' : Carousel,
+    'pictureanimation' : Pictureanimation
   }
 })
 export default class Home extends Vue {}
@@ -46,5 +50,7 @@ export default class Home extends Vue {}
   animatediv{
     width:100vw;
   }
-  
+  .app{
+    max-width:900px;
+  }
 </style>
