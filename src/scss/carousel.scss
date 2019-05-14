@@ -1,43 +1,65 @@
-//     .slider {
-//         width: 50%;
-//         margin: 100px auto;
-//     }
+.icon-circle-right:before {
+    content: "\ea42";
+}
+.icon-circle-left:before {
+    content: "\ea44";
+}
 
-//     .slick-slide {
-//     margin: 0px 20px;
-//     }
+img{
+    width:100px;
+    height: 100px;
+}
 
-//     .slick-slide img {
-//     width: 100%;
-//     }
+.carouselbg{
+    width:100%;
+    height: 100vh;
+}
 
-//     .slick-prev:before,
-//     .slick-next:before {
-//     color: black;
-//     }
-
-
-//     .slick-slide {
-//     transition: all ease-in-out .3s;
-//     opacity: .2;
-//     }
-
-//     .slick-active {
-//     opacity: .5;
-//     }
-
-//     .slick-current {
-//     opacity: 1;
-//     }
-
-// .carousel_bg{
+// .flip-box-front{
 //     img{
-//         width:300px;
-//         height:300px;
+//     width:200px;
+//     height: 200px;
+//     border: 2px solid #3333;
+//     border-radius:50%;
+//     margin:10px;
 //     }
 // }
 
-// .slick_container{width:100%; height:275px; position:relative;  overflow:hidden;}
-//     .slick_item{height:100%; width:450px; background-size:cover; }
-
-
+.flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+  }
+  
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box:hover .flip-box-inner {
+    transform: rotateX(180deg);
+  }
+  
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-box-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateX(180deg);
+  }

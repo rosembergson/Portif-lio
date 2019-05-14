@@ -46,9 +46,9 @@ export default {
     position:relative;
     background-image: url('https://s2.best-wallpaper.net/wallpaper/3840x2160/1902/Astronaut-planet-stars-beautiful-space_3840x2160.jpg');
     background-position: center;
-                background-size: cover;
-                background-repeat: no-repeat;
-                object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 

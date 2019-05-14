@@ -1,5 +1,4 @@
 <template>
-
     <div class="particulebg">
         <div class="particlesanimation_form" >
             <h3> Search about Rosembergson </h3>

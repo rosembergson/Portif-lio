@@ -4,14 +4,14 @@
 
     <welcome/>
 
+    <cardlistanimation/>
     <animatediv/>
     <cardlist/>
   <div class="app">
-    <carousel/>
-    </div>
+  </div>
+  <carousel/>
     <particules/>
     <pictureanimation/>
-
   </div>
 </template>
 
@@ -25,7 +25,7 @@ import Particules from '../components/animates/particulesanimation'
 import Welcome from '../components/welcome/welcome'
 import Carousel from '../components/carousel/carousel'
 import Pictureanimation from '../components/animates/picturesanimation'
-
+import CardlistAnimation from '../components/cards/cardlistanimate'
 @Component({
   components: {
     'headermenu' : Headermenu,
@@ -35,7 +35,8 @@ import Pictureanimation from '../components/animates/picturesanimation'
     'particules' : Particules,
     'welcome' : Welcome,
     'carousel' : Carousel,
-    'pictureanimation' : Pictureanimation
+    'pictureanimation' : Pictureanimation,
+    'cardlistanimation' : CardlistAnimation
   }
 })
 export default class Home extends Vue {}

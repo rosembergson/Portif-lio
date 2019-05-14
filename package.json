@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@glidejs/glide": "^3.3.0",
     "animation.css": "^0.1.0",
     "aos": "^2.3.4",
     "axios": "^0.18.0",

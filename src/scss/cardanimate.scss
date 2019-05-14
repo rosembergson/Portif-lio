@@ -1,0 +1,67 @@
+// Css do arquivo CardAnimate.vue
+
+.cardanimatebg{
+    padding:20px;
+    width:auto;
+    min-height: 225px;
+    display:flex;
+    justify-content: flex-start;
+    margin: 0 20px;
+    opacity: 0;
+    transform: translate3d(-100px,0,0);
+    transition: all 0.7s;
+    &.active{
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+    img{
+        max-width:225px;
+        max-height:225px;
+        margin:0;
+    }
+    .cardanimate_conteudo{
+        margin-left:20px;
+        width: 40%;
+        h4{
+            color:firebrick;
+            font-family: 'Playfair Display', serif;
+            font-size:20px;
+        }
+        p{
+            text-align: justify;
+            font-family: 'Muli', sans-serif;
+        }
+        button{
+            background: transparent;
+            border: 1px firebrick solid;
+            color: firebrick;
+            padding: 20px 30px;
+            border-radius: 10px;
+            cursor: pointer;
+            outline: none;
+        }
+        button:hover{
+            transform: scale(0.9);
+        }
+
+    }
+
+}
+
+.cardanimatebg:nth-child(odd){
+    display:flex;
+    justify-content: flex-end;
+}
+
+// Css CardListAnimate.vue
+
+.cardlistanimatebg{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 ;
+    h1{
+        font-family: 'Playfair Display', serif;
+            font-size:30px;
+    }
+}
+
