@@ -1,25 +1,29 @@
 <template>
   <div class="home">
     <hoopercarousel/>
+
     <cardlistanimation/>
+
     <particules/>
+
     <carousel/>
 
     <cardlist/>
+
     <foot/>
+
   </div>
 </template>
 
-<script lang="ts">
-import { Component, Vue } from 'vue-property-decorator'
-import Cardlist from '../components/cards/cardlist'
-import Foot from '../components/footer/footer'
-import Animatediv from '../components/animates/animatediv'
-import Particules from '../components/animates/particulesanimation'
-import Carousel from '../components/carousel/carousel'
-import Pictureanimation from '../components/animates/picturesanimation'
-import CardlistAnimation from '../components/cards/cardlistanimate'
-import hoopercarousel from '../components/v-carousel/hoopercarousel'
+<script >
+import { Component, Vue } from "vue-property-decorator"
+import Cardlist from "../components/cards/cardlist"
+import Foot from "../components/footer/footer"
+import Animatediv from "../components/animates/animatediv"
+import Particules from "../components/animates/particulesanimation"
+import Carousel from "../components/carousel/carousel"
+import CardlistAnimation from "../components/cards/cardlistanimate"
+import hoopercarousel from "../components/v-carousel/hoopercarousel"
 @Component({
   components: {
     
@@ -28,7 +32,7 @@ import hoopercarousel from '../components/v-carousel/hoopercarousel'
     'animatediv' : Animatediv,
     'particules' : Particules,
     'carousel' : Carousel,
-    'pictureanimation' : Pictureanimation,
+    
     'cardlistanimation' : CardlistAnimation,
     'hoopercarousel' : hoopercarousel
   }

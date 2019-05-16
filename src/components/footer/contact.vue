@@ -1,7 +1,7 @@
 <template>
     <div class="particulebg">
         <div class="particlesanimation_form" >
-            <h3> Search about Rosembergson </h3>
+            <h3> Se tem interesse deixe seu e-mail </h3>
             <form action="POST" class="particlesanimation_form--bg">
                 <label for="email">
                     <input type="email" placeholder="e-mail.com">
