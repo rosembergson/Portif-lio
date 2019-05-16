@@ -1,7 +1,7 @@
 <template>
     <div class="particulebg">
         <div class="particlesanimation_form" >
-            <h3> Se tem interesse deixe seu e-mail </h3>
+            <h3> If you are interested leave your email </h3>
             <form action="POST" class="particlesanimation_form--bg">
                 <label for="email">
                     <input type="email" placeholder="e-mail.com">
@@ -19,7 +19,7 @@
         </ul>
         <div class="particlesanimation_divcard">
             <img src="../../assets//1fbbfd3a-94d4-4b79-a4cd-066d8905ff51 (1).jpg" alt="Rosembergson">
-            <p>"A força de vontade pode te oferecer momentos nos quais você jamais irá esquecer. Se o mundo te derruba, mostre que você é mais forte que a gravidade!"
+            <p>Willpower can offer you moments you will never forget. If the world knocks you down, show that you are stronger than gravity!"
 
             </p>
         

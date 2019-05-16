@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="card_conteud--text3">
-            <button type="button"> Inscrever </button>
+            <button type="button"> Follow </button>
         </div>
     </li>
 </template>

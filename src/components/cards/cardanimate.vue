@@ -5,7 +5,7 @@
         <div class="cardanimate_conteudo">
         <h4>{{cardanimate.name}}</h4>
         <p>{{cardanimate.text}}</p>
-        <button type="button"> Ver mais </button>
+        <button type="button"> See more </button>
         </div>
     </div>
 
