@@ -1,17 +1,12 @@
 <template>
     <li class="card_bg">
         <div class="card_bg--img">
-            <img :src="card.code" :alt="card.id">
+            <img :src="card.src" :alt="card.id">
         </div>
         <div class="card_bg_conteud">
             <div class="card_conteud--text1">   
                 <h5> {{card.titule5}} </h5>
                 <p>  {{card.conteud2}} </p>
-            </div>
-
-            <div class="card_conteud--text2">
-                <h3> {{card.titule3}} </h3>
-                <p>  {{card.conteud}} </p>
             </div>
         </div>
         <div class="card_conteud--text3">

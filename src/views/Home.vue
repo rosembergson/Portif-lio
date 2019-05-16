@@ -1,42 +1,36 @@
 <template>
   <div class="home">
-    <headermenu />
-
-    <welcome/>
-
+    <hoopercarousel/>
     <cardlistanimation/>
-    <animatediv/>
-    <cardlist/>
-  <div class="app">
-  </div>
-  <carousel/>
     <particules/>
-    <pictureanimation/>
+    <carousel/>
+
+    <cardlist/>
+    <foot/>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
-import Headermenu from '../components/header/headermenu'
 import Cardlist from '../components/cards/cardlist'
 import Foot from '../components/footer/footer'
 import Animatediv from '../components/animates/animatediv'
 import Particules from '../components/animates/particulesanimation'
-import Welcome from '../components/welcome/welcome'
 import Carousel from '../components/carousel/carousel'
 import Pictureanimation from '../components/animates/picturesanimation'
 import CardlistAnimation from '../components/cards/cardlistanimate'
+import hoopercarousel from '../components/v-carousel/hoopercarousel'
 @Component({
   components: {
-    'headermenu' : Headermenu,
+    
     'cardlist' : Cardlist,
     'foot' : Foot,
     'animatediv' : Animatediv,
     'particules' : Particules,
-    'welcome' : Welcome,
     'carousel' : Carousel,
     'pictureanimation' : Pictureanimation,
-    'cardlistanimation' : CardlistAnimation
+    'cardlistanimation' : CardlistAnimation,
+    'hoopercarousel' : hoopercarousel
   }
 })
 export default class Home extends Vue {}

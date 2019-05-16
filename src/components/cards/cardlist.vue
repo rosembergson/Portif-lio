@@ -1,5 +1,6 @@
 <template>
     <div class="cardlist">
+        <h1></h1>
         <ul class="cardlist_bg">
             <card1 v-for="card in cards" :key="card" :card="card"/>
         </ul>

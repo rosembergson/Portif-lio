@@ -1,0 +1,87 @@
+.icon-mail2:before {
+    content: "\ea84";
+  }
+  .icon-twitter:before {
+    content: "\ea96";
+  }
+  .icon-dribbble:before {
+    content: "\eaa7";
+  }
+  .icon-linkedin:before {
+    content: "\eac9";
+  }
+  .icon-stackoverflow:before {
+    content: "\ead0";
+  }
+  .icon-stackoverflow:before {
+    content: "\ead0";
+  }
+  .icon-github:before {
+    content: "\eab0";
+  }
+//   SCSS das elementos principais
+
+.footer_bg{
+    margin-top:40px;
+    width:100%;
+    height: 100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    background:#c0c6cc;
+    .ul--bg{
+      list-style: none;
+        display:flex;
+        justify-content: center;
+        background: #902a5e;
+        li{
+          padding:10px;
+        }
+    }
+    .footer_bg--img{
+        display:flex;
+        align-self:center;
+        width:200px;
+        height:200px;
+        border-radius:50%;
+        margin: 40px 0;
+        box-shadow:2px 2px #902a5e;
+            img{
+                width:100%;
+                height:100%;
+                border-radius:50%;
+            }
+    }
+    .footer_bg--text{
+        display:flex;
+        align-self:center;
+            width:40%;
+            min-height:100px;
+            font-family: 'Playfair Display', serif;
+    }
+    .footer_bg--ul{
+        list-style:none;
+        display:flex;
+        justify-content: center;
+        li{
+            cursor:pointer;
+            display:flex;
+            justify-content:center;
+            text-align:center;
+            margin:10px;
+            width:50px;
+            height:50px;
+            border-radius:50%;
+            border:1px solid #902a5e;
+            font-size:30px;
+            padding:0;
+            div{
+                align-self:center;
+            }
+        }
+        li:hover{
+            transform:scale(0.9);
+        }
+    }
+    
+}

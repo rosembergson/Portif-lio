@@ -1,7 +1,17 @@
 <template>
-    <div class="slide">
-        <img :src="slide.src" alt="image"/>
-    </div>
+    <div class="flip-box">
+      <div class="flip-box-inner">
+        <div class="flip-box-front">
+            <img :src="slide.src" alt="slide">
+        </div>
+        
+        <div class="flip-box-back">
+                <div class="percentualbg">
+                    <p>{{slide.porc}}</p>
+                </div>
+        </div>
+  </div>
+  </div>
 </template>
 
 <script>
@@ -15,11 +25,6 @@ export default {
 }
 </script>
 
-<style scoped>
-    img{
-        max-width:100%;
-    }
-    .slide{
-        display: inline-block;
-    }
+<style lang="scss">
+    @import "../../scss/carousel.scss";
 </style>
